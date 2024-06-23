@@ -20,7 +20,7 @@ public class ICentro extends JFrame {
         JTextArea textArea = new JTextArea(10, 30);
         add(new JScrollPane(textArea));
 
-        JButton btnGuardar = new JButton("Guardar Datos");
+        JButton btnGuardar = new JButton("Guardar datos");
         add(btnGuardar);
 
         btnGuardar.addActionListener(e -> {
